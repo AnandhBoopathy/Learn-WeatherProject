@@ -18,7 +18,7 @@ const updateUI = (data) => {
         </div>
         `;
 
-    let timeSRC = cityWeather.IsDayTime ? 'img/day.jpg' : 'img/night.jpg';
+    let timeSRC = cityWeather.IsDayTime ? 'day.jpg' : 'night.jpg';
 
     time.setAttribute('src', timeSRC);
 
